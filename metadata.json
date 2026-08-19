@@ -1,0 +1,7 @@
+{
+  "name": "MR. DENSHI - Global AI Electronics Marketplace",
+  "description": "Enterprise multi-market, multi-vendor, AI-native electronics commerce platform featuring technical compatibility intelligence, multi-currency ledger, global fulfillment, and AI shopping assistant.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

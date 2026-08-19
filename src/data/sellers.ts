@@ -1,0 +1,82 @@
+import { Seller } from '../types';
+
+export const OFFICIAL_SELLERS: Record<string, Seller> = {
+  'akihabara-direct': {
+    id: 'akihabara-direct',
+    name: 'Akihabara Direct Tech Co., Ltd.',
+    japaneseName: '秋葉原ダイレクト電子株式会社',
+    location: 'Sotokanda, Chiyoda-ku, Tokyo, Japan',
+    country: 'JP',
+    rating: 4.96,
+    totalReviews: 14820,
+    fulfillmentType: 'DENSHI_GLOBAL_FULFILLMENT',
+    verifiedAuthentic: true,
+    pseComplianceAuthorized: true,
+    yearsOnPlatform: 8,
+    shipmentOntimeRate: 99.8,
+    badge: 'AUTHENTIC_JAPAN_SELLER',
+    avatar: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=150&auto=format&fit=crop&q=80'
+  },
+  'nihon-precision-audio': {
+    id: 'nihon-precision-audio',
+    name: 'Nihon Precision Hi-Fi Labs',
+    japaneseName: '日本精密音響研究所',
+    location: 'Nipponbashi, Naniwa-ku, Osaka, Japan',
+    country: 'JP',
+    rating: 4.98,
+    totalReviews: 8940,
+    fulfillmentType: 'DENSHI_GLOBAL_FULFILLMENT',
+    verifiedAuthentic: true,
+    pseComplianceAuthorized: true,
+    yearsOnPlatform: 12,
+    shipmentOntimeRate: 99.9,
+    badge: 'OFFICIAL_BRAND',
+    avatar: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=150&auto=format&fit=crop&q=80'
+  },
+  'tokyo-appliance-craft': {
+    id: 'tokyo-appliance-craft',
+    name: 'Tokyo Domestic Appliances & Craft',
+    japaneseName: '東京家電工房・直販店',
+    location: 'Ginza, Chuo-ku, Tokyo, Japan',
+    country: 'JP',
+    rating: 4.92,
+    totalReviews: 6730,
+    fulfillmentType: 'DENSHI_GLOBAL_FULFILLMENT',
+    verifiedAuthentic: true,
+    pseComplianceAuthorized: true,
+    yearsOnPlatform: 6,
+    shipmentOntimeRate: 99.4,
+    badge: 'AUTHENTIC_JAPAN_SELLER',
+    avatar: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=150&auto=format&fit=crop&q=80'
+  },
+  'silicon-valley-depot': {
+    id: 'silicon-valley-depot',
+    name: 'Silicon Valley Components Depot',
+    location: 'San Jose, California, United States',
+    country: 'US',
+    rating: 4.88,
+    totalReviews: 11200,
+    fulfillmentType: 'LOCAL_DEPOT',
+    verifiedAuthentic: true,
+    pseComplianceAuthorized: false,
+    yearsOnPlatform: 5,
+    shipmentOntimeRate: 98.7,
+    badge: 'PREMIUM_DEPOT',
+    avatar: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=150&auto=format&fit=crop&q=80'
+  },
+  'berlin-optics-audio': {
+    id: 'berlin-optics-audio',
+    name: 'Berlin Acoustic & Studio Gear GmbH',
+    location: 'Mitte, Berlin, Germany',
+    country: 'DE',
+    rating: 4.94,
+    totalReviews: 5400,
+    fulfillmentType: 'DENSHI_GLOBAL_FULFILLMENT',
+    verifiedAuthentic: true,
+    pseComplianceAuthorized: true,
+    yearsOnPlatform: 7,
+    shipmentOntimeRate: 99.5,
+    badge: 'VERIFIED_VENDOR',
+    avatar: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=150&auto=format&fit=crop&q=80'
+  }
+};
